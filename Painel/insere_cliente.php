@@ -1,7 +1,6 @@
 <?php
     include 'conecta.php';
     include 'menu.php'
-
 ?>
             <div id="layoutSidenav_content">
                 <main>

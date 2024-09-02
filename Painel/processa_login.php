@@ -5,7 +5,7 @@
 
     require('conecta.php');
     $email = $_POST ['email'];
-    $senha = $_POST ['senha'];
+    $senha = md5($_POST ['senha']);
 
 
     $consulta = "SELECT * FROM usuarios WHERE email = '$email' AND senha = '$senha'";

@@ -14,7 +14,10 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                        <h1 class="mt-4">Tabela</h1>
+                    <h1 class="mt-4">Clientes</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active"> <a class="btn btn-success" href="insere_cliente.php">INSERIR CLIENTE</a></li>
+                        </ol>
                         <div class="card mb-4">
                             <div class="card-header">
                                 <i class="fas fa-table me-1"></i>
