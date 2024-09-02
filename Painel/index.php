@@ -11,10 +11,11 @@
     include 'conecta.php';
     include 'menu.php';
 ?>
+        <title>Cadastro Clientes teste</title>
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
-                    <h1 class="mt-4">Clientes</h1>
+                        <h1 class="mt-4">Clientes</h1>
                         <ol class="breadcrumb mb-4">
                             <li class="breadcrumb-item active"> <a class="btn btn-success" href="insere_cliente.php">INSERIR CLIENTE</a></li>
                         </ol>
