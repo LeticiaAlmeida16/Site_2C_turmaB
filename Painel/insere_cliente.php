@@ -1,7 +1,9 @@
 <?php
     include 'conecta.php';
-    include 'menu.php'
+    include 'menu.php';
+
 ?>
+
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
@@ -13,20 +15,20 @@
                             </div>
                             <div class="card-body">
 
-                                <form>
+                                <form action = "processa_insere_cliente.php" method="POST">
                                     <div class="mb-3">
                                         <label class="form-label">Nome</label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" class="form-control" name="nome">
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Email</label>
-                                        <input type="email" class="form-control">
+                                        <input type="email" class="form-control" name="email">
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Telefone</label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" class="form-control" name="telefone">
                                     </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="submit" class="btn btn-primary">Inserir</button>
                                 </form>
 
                             </div>

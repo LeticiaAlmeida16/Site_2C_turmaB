@@ -1,6 +1,13 @@
 <?php
     include 'conecta.php';
-    include 'menu.php'
+    include 'menu.php';
+
+    $id = $_GET['id'];
+
+    $sql = "SELECT * FROM clientes WHERE id_cliente = '$id'";
+    $consulta = $conexao->query($sql);
+    $dados = $consulta->fetch_assoc()
+
 ?>
             <div id="layoutSidenav_content">
                 <main>
@@ -13,20 +20,20 @@
                             </div>
                             <div class="card-body">
                                 
-                                <form>
+                                <form action = "processa_atualiza_cliente.php?id=<?php echo $id; ?> " method="POST">
                                     <div class="mb-3">
                                         <label class="form-label">Nome</label>
-                                        <input type="text" class="form-control">
+                                        <input name="nomee" type="text" class="form-control" value="<?php echo $dados['nome_cliente'];?>">
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Email</label>
-                                        <input type="email" class="form-control">
+                                        <input name="emaill"type="email" class="form-control" value="<?php echo $dados['email_cliente'];?>">
                                     </div>
                                     <div class="mb-3">
                                         <label class="form-label">Telefone</label>
-                                        <input type="text" class="form-control">
+                                        <input name="telefonee"type="text" class="form-control" value="<?php echo $dados['telefone'];?>">
                                     </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                    <button type="submit" class="btn btn-primary">Atualizar</button>
                                 </form>
 
                             </div>
