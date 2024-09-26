@@ -52,7 +52,7 @@
                                 echo "<td>" . $dados['telefone'] . "</td>";
                                 echo "<td>
                                             <a href='form_atualiza_cliente.php?id_cliente=" . $dados["id_cliente"] . "'><button class='btn btn-primary'>Atualizar</button></a>
-                                            <a href='apaga_cliente.php?id_cliente=" . $dados["id_cliente"] . "'><button class='btn btn-danger' onclick='return confirmDelete()'>Deletar</button></a>
+                                            <a href='apaga_cliente.php?id_cliente=" . $dados["id_cliente"] . "'><button class='btn btn-danger' onclick='return confirmDelete()'>Apagar</button></a>
                                     </td>";
                                 echo "</tr>";
                             }
