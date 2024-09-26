@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 26/09/2024 às 15:59
+-- Tempo de geração: 26/09/2024 às 16:03
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -43,16 +43,16 @@ CREATE TABLE `clientes` (
 INSERT INTO `clientes` (`id_cliente`, `nome_cliente`, `email_cliente`, `telefone`) VALUES
 (1, 'Etec MCM', 'etec@gmail.com', '(11)98765-4321'),
 (2, 'Rouparia', 'rouparia@gmail.com', '(11)99999-0011'),
-(6, 'Pizzaria Bella', 'pizzaria.bella@gmail.com', '(11)98888-1234'),
-(7, 'Academia Fit', 'academia.fit@gmail.com', '(11)97777-2345'),
-(8, 'Livraria Central', 'livraria.central@gmail.com', '(11)96666-3456'),
-(9, 'Restaurante Saboroso', 'restaurante.saboroso@gmail.com', '(11)95555-4567'),
-(10, 'Floricultura Verde', 'floricultura.verde@gmail.com', '(11)94444-5678'),
-(11, 'Oficina Mecânica', 'oficina.mecanica@gmail.com', '(11)93333-6789'),
-(12, 'Barbearia Estilo', 'barbearia.estilo@gmail.com', '(11)92222-7890'),
-(13, 'Clínica Saúde', 'clinica.saude@gmail.com', '(11)91111-8901'),
-(14, 'Confeitaria Doce Vida', 'confeitaria.docevida@gmail.com', '(11)90000-9012'),
-(15, 'Estúdio Criativo', 'estudio.criativo@gmail.com', '(11)89999-0123');
+(3, 'Pizzaria Bella', 'pizzaria.bella@gmail.com', '(11)98888-1234'),
+(4, 'Academia Fit', 'academia.fit@gmail.com', '(11)97777-2345'),
+(5, 'Livraria Central', 'livraria.central@gmail.com', '(11)96666-3456'),
+(6, 'Restaurante Saboroso', 'restaurante.saboroso@gmail.com', '(11)95555-4567'),
+(7, 'Floricultura Verde', 'floricultura.verde@gmail.com', '(11)94444-5678'),
+(8, 'Oficina Mecânica', 'oficina.mecanica@gmail.com', '(11)93333-6789'),
+(9, 'Barbearia Estilo', 'barbearia.estilo@gmail.com', '(11)92222-7890'),
+(10, 'Clínica Saúde', 'clinica.saude@gmail.com', '(11)91111-8901'),
+(11, 'Confeitaria Doce Vida', 'confeitaria.docevida@gmail.com', '(11)90000-9012'),
+(12, 'Estúdio Criativo', 'estudio.criativo@gmail.com', '(11)89999-0123');
 
 -- --------------------------------------------------------
 
