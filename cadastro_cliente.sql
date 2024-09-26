@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 26/09/2024 às 15:39
+-- Tempo de geração: 26/09/2024 às 15:59
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -42,7 +42,17 @@ CREATE TABLE `clientes` (
 
 INSERT INTO `clientes` (`id_cliente`, `nome_cliente`, `email_cliente`, `telefone`) VALUES
 (1, 'Etec MCM', 'etec@gmail.com', '(11)98765-4321'),
-(2, 'Rouparia', 'rouparia@gmail.com', '(11)99999-0011');
+(2, 'Rouparia', 'rouparia@gmail.com', '(11)99999-0011'),
+(6, 'Pizzaria Bella', 'pizzaria.bella@gmail.com', '(11)98888-1234'),
+(7, 'Academia Fit', 'academia.fit@gmail.com', '(11)97777-2345'),
+(8, 'Livraria Central', 'livraria.central@gmail.com', '(11)96666-3456'),
+(9, 'Restaurante Saboroso', 'restaurante.saboroso@gmail.com', '(11)95555-4567'),
+(10, 'Floricultura Verde', 'floricultura.verde@gmail.com', '(11)94444-5678'),
+(11, 'Oficina Mecânica', 'oficina.mecanica@gmail.com', '(11)93333-6789'),
+(12, 'Barbearia Estilo', 'barbearia.estilo@gmail.com', '(11)92222-7890'),
+(13, 'Clínica Saúde', 'clinica.saude@gmail.com', '(11)91111-8901'),
+(14, 'Confeitaria Doce Vida', 'confeitaria.docevida@gmail.com', '(11)90000-9012'),
+(15, 'Estúdio Criativo', 'estudio.criativo@gmail.com', '(11)89999-0123');
 
 -- --------------------------------------------------------
 
@@ -62,7 +72,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES
-(1, 'Letícia Nascimento de Almeida', 'leticia.almeidaaa2008@gmail.com', '123euamolaranja31d5d0ca39d4d54c8f47887c137aba16');
+(1, 'Letícia Nascimento de Almeida', 'leticia.almeidaaa2008@gmail.com', '31d5d0ca39d4d54c8f47887c137aba16');
 
 --
 -- Índices para tabelas despejadas
@@ -88,7 +98,7 @@ ALTER TABLE `usuarios`
 -- AUTO_INCREMENT de tabela `clientes`
 --
 ALTER TABLE `clientes`
-  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT de tabela `usuarios`

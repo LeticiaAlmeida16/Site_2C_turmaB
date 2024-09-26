@@ -90,7 +90,7 @@
 
 <script>
 function confirmDelete() {
-    return confirm("Você tem certeza de que deseja deletar os dados?");
+    return confirm("Você tem certeza que quer apagar os dados?");
 }
 </script>
 </body>
